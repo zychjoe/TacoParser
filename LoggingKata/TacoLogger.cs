@@ -2,7 +2,8 @@
 
 namespace LoggingKata
 {
-    public class TacoLogger : ILog
+    public class TacoLogger : ILog //We''ll use this class to print logs
+                                   // to the console along the way.
     {
         public void LogFatal(string log, Exception exception = null)
         {
