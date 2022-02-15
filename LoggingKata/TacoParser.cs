@@ -48,7 +48,7 @@ namespace LoggingKata
                            $" is at Lat: {tacoBell.Location.Latitude}" +
                            $" & Long: {tacoBell.Location.Longitude}.");
 
-            // And we'll retunr the new TacoBell.
+            // And we'll return the new TacoBell.
 
             return tacoBell;
         }
